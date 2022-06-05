@@ -19,7 +19,6 @@ console.log(y.toPrecision(3))
 
 //--------------------------------------------------------------------------------
 // 2 - string
-
 const FirtsName: string = "Willian"
 console.log(FirtsName.toUpperCase())
 
@@ -34,12 +33,27 @@ console.log(fullName)
 //--------------------------------------------------------------------------------
 // 3 - boolean
 
-let a: boolean = false
+let bool: boolean = false
 
-a = true
+bool = true
 
-console.log(a)
-console.log(typeof a)
+console.log("\t", bool)
+console.log(typeof bool)
 
 //--------------------------------------------------------------------------------
+// 4 - inference e annotation
 
+//Annotation is when we define the type of a data manually
+let annotation: string = "test"
+//annotation = 1
+
+//Inference is when TS(TypeScript) identifies and sets the data type for us
+let inference = "test"
+//inference = 2
+
+
+//Task Module
+
+var number = 10
+var convertNumber = number.toString()
+console.log(`Number ${convertNumber} as been converted to string`)
